@@ -10,66 +10,69 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/68268b090f.js" crossorigin="anonymous"></script>
+    <script src="./index.js" crossorigin="anonymous"></script>
     <title>Personal Project</title>
 </head>
 <body>
     <header class="bg-head">
         <nav>
-        <div class="top-nav">
-            <ul>
-                <li >
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">News</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
+            <div class="top-nav">
+                <ul>
+                    <li >
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <div class="head-vancouver">
-            <h1>Vancouver</h1>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui </p>
-        </div>
     </header>
     <main>
-        <!-- THE INTRODUCTION -->
-        <section class="containner-introduction">
-            <div class="containner-introduction-h3">
-                <h3>THE INTRODUCTION</h3>
-            </div>
-            <div class="containner-introduction-p1" >
-                <p>Integer porttitor mollisar lorem, at molestie arcu pulvinar ut.</p>
-            </div>
-            <div class="containner-introduction-h2">
-                <h2>Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem. </h2>
-            </div>
-            <div class="containner-introduction-p2">
-                <p>Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est. Cras mi ipsum, consectetur ac ipsum Proin ac</p>
-            </div>
-            <div class="button">
-                <a href="#">PROCEED</a>
+        <section class="container-banner">
+            <div class="head-vancouver">
+                <h1>Vancouver</h1>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui </p>
             </div>
         </section>
-        <section>
-            <div class="containner-detail-h3">
+        <!-- THE INTRODUCTION -->
+        <section class="container-introduction">
+            <div class="container-introduction-h3">
+                <h3>THE INTRODUCTION</h3>
+            </div>
+            <div class="container-introduction-p1" >
+                <p>Integer porttitor mollisar lorem, at molestie arcu pulvinar ut.</p>
+            </div>
+            <div class="container-introduction-h2">
+                <h2>Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem. </h2>
+            </div>
+            <div class="container-introduction-p2">
+                <p>Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. Proin ac fermentum est. Cras mi ipsum, consectetur ac ipsum Proin ac</p>
+            </div>
+            <div class="button-wrapper">
+                <a class="button" href="#">PROCEED</a>
+            </div>
+        </section>
+        <section class="container-teaser">
+            <div class="container-detail-h3">
                 <h3>THE DETAIL</h3>
             </div>
-            <div class="containner-detail-img">
+            <div class="container-detail-img">
                 <img src="./1.jpeg" alt="girl">
             </div>
-            <div class="color-black containner-introduction-h2">
+            <div class="color-black container-introduction-h2">
                 <h2>Integer porttitor mollisar </h2>
             </div>
-            <div class="containner-detail-p">
+            <div class="container-detail-p">
                 <p> Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. </p>
             </div>
         </section>
@@ -132,8 +135,8 @@
                     </div>
                 </div>
                 <div class="button-below">
-                    <a class="button-get-start" href="#">GET START</a>
-                    <a class="button-more-info" href="#">MORE INFO</a>
+                    <a class="button" href="#">GET START</a>
+                    <a class="button button-inverted" href="#">MORE INFO</a>
                 </div>
               </div>
         </section>
@@ -147,19 +150,19 @@
                         <img class="our-news-img" src="./g7.jpeg" alt="g7">
                         <h4>Integer porttitor</h4>
                         <p>Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut.</p>
-                        <a href="#">Learn More</a>
+                        <a class="button button-primary" href="#">Learn More</a>
                     </div>
                     <div class="col-12 col-md-4 block-container-our-news">
                         <img class="our-news-img" src="./g2.jpeg" alt="g7">
                         <h4>Integer porttitor</h4>
                         <p>Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut.</p>
-                        <a href="#">Learn More</a>
+                        <a class="button button-primary" href="#">Learn More</a>
                     </div>
                     <div class="col-12 col-md-4 block-container-our-news">
                         <img class="our-news-img" src="./g3.jpeg" alt="g7">
                         <h4>Integer porttitor</h4>
                         <p>Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut.</p>
-                        <a href="#">Learn More</a>
+                        <a class="button button-primary"  href="#">Learn More</a>
                     </div>
             </div>
         </section>
@@ -176,7 +179,7 @@
             </div>
             <hr class="footer-separator">
 
-            <div class="row">
+            <div class="row footer-details">
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="footer-name-email">
                         <input type="text" name="Name" placeholder="Name" required="">
@@ -186,8 +189,8 @@
                         <textarea class="footer-message" name="Message" required="">Message...</textarea>
                     </div>
                     <div class="footer-button">
-                        <a href="#">Send</a>
-                        <a href="#" class="reset-btn">Reset</a>
+                        <a class="button button-primary" href="#">Send</a>
+                        <a class="button button-inverted" href="#" class="reset-btn">Reset</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 footer-flex">
